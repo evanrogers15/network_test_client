@@ -15,7 +15,7 @@ COPY scapy_udp_flood.py /home/scripts/scapy_udp_flood.py
 COPY startup_nuttcp.sh /home/startup_nuttcp.sh
 COPY startup_tailscale.sh /home/startup_tailscale.sh
 COPY netflow_forwarder.py /home/scripts/netflow_forwarder.py
-COPY client_traffic_generation.py /home/scripts/client_traffic_generation.py
+COPY client_traffic_generator.py /home/scripts/client_traffic_generator.py
 
 #CMD ["/home/startup.sh"]
 CMD ["bash"]
